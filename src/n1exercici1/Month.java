@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Month {
 	
-	private String name = ""; 
+	private String name; 
 	
 	public Month(String name) {
 		this.name = name; 	

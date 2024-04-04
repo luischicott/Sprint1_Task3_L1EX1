@@ -25,13 +25,19 @@ public class S1_T3_N1EX1_Luis_Chicott {
 		months.add(new Month("October")); 
 		months.add(new Month("November")); 
 		months.add(new Month("December"));	
+		
+		System.out.println(months); 
 		months.add(7, new Month("August"));
+		
+		System.out.print("\n");
+		
+		System.out.println(months); 
 		
         months2.addAll(months); 	
 		months2.add(new Month("February"));
 		months2.add(new Month("January")); 
 		
-
+		System.out.print("\n");
 		
 		for (int i = 0; i < months.size(); i ++) {
 			System.out.print(months.get(i).getName() + " ");
